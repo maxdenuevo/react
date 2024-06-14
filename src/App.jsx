@@ -6,9 +6,12 @@ import  { TextoLibre } from './components/TextoLibre'
 
 function App() {
   return (
-    <>
-    <TextoLibre></TextoLibre>   
-    </>
+    <div>
+    <Title nombre= "Max" apellido= "Ihnen"></Title>
+    <Button></Button>
+    <Contador></Contador>
+    <TextoLibre></TextoLibre>
+    </div>
   );
 }
 
