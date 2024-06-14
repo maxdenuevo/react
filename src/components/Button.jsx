@@ -10,6 +10,6 @@ export function Button() {
         console.log("porfa no!");
     }
 
-    return <button onMouseOver={pasoPorArriba}> Click me! </button>;
+    return <button onClick={responderAlEventoClick}> Click me! </button>;
 }
 
