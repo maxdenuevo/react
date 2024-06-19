@@ -7,14 +7,7 @@ import { ContactPage } from './pages/ContactPage'
 
 
 function App() {
-  return (
-      <BrowserRouter>
-        <Routes>
-          <Route path='/home' element={<HomePage />} />
-            <Route path='/home/contact' element={<ContactPage/>} />
-        </Routes>
-      </BrowserRouter>
-  );
+  
 }
 
 export default App
