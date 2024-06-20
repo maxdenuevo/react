@@ -5,6 +5,8 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import { ContactPage } from './pages/ContactPage.jsx'
 import { HomePage } from './pages/HomePage.jsx'
+import { NotFoundPage } from './pages/NotFoundPage.jsx' 
+import { UserDynamic } from './pages/UserDynamic.jsx'
 
 let router = createBrowserRouter([
     {
@@ -14,6 +16,14 @@ let router = createBrowserRouter([
     {
       path: "/contact",
       element: <ContactPage />
+    },
+    {
+      path: "/users/:id",
+      element: <UserDynamic />
+    },
+    {
+      path: "*",
+      element: <NotFoundPage /> 
     }
   ]
 )

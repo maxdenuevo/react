@@ -5,10 +5,12 @@ import  { TextoLibre } from '../components/TextoLibre'
 import  { Contador } from '../components/Counter'
 import { ListPokemon } from '../components/Pokemon'
 import { RocketList } from '../components/SpaceX'
+import { Navbar } from "../components/Navbar";
 
 export function HomePage() {
     return (
     <div>
+        <Navbar />
     <h1>HomePage</h1>
     <Title nombre= "Max" apellido= "Ihnen"></Title>
     <h3>Listen to the button:</h3>
