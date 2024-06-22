@@ -6,5 +6,6 @@ export function ContactPage() {
     <div>
         <Navbar />
         <h1>ContactPage</h1>
+        <p><a href="mailto:maxihnen@gmail.com">email</a></p>
     </div>)
 }
