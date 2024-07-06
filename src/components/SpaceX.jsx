@@ -23,7 +23,6 @@ export function RocketList() {
        {rockets.map((nombre) => {
           return <li> {nombre.rocket_name}
                </li>
-
           
           })
        }
