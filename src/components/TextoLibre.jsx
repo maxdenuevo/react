@@ -12,6 +12,5 @@ export function TextoLibre (){
             <p>{texto}</p>
             <input type="text" onChange={eventoActualizarTexto}/>
        </div> 
-
     );
 }
